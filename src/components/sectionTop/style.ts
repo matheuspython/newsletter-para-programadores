@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import media from "styled-media-query"; 
 
 export const SectionTopStyled = styled.section`
 width: 100%;
@@ -29,6 +30,12 @@ h1 {
   letter-spacing: 1.24rem;
 
   font-family: 'Roboto', sans-serif;
+  ${media.between("medium", "large")`
+  font-size: 30px;
+  `}
+  ${media.lessThan("medium")`
+    font-size:20px;
+  `}
 }
 
 span {
