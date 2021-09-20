@@ -4,7 +4,7 @@ import media from "styled-media-query";
 export const SectionTopStyled = styled.section`
 width: 100%;
 height: 89vh;
-max-height: 800px;
+max-height: 600px;
 
 .container{
   height: 100%;
