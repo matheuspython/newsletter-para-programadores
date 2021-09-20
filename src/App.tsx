@@ -6,6 +6,8 @@ import dark from './styles/themes/dark';
 import light from './styles/themes/light';
 import { Header } from './components/Header';
 import { SectionTop } from './components/sectionTop';
+import { Main } from './components/Main';
+import { Cadastro } from './components/Cadastro';
 
 function App(){
   const [theme, setTheme] = useState(dark)
@@ -16,6 +18,8 @@ function App(){
       <GlobalStyle/>
       <Header toggleTheme={toggleTheme}  />
       <SectionTop />
+      {/* <Main /> */}
+      <Cadastro />
     </ThemeProvider>
   )
 

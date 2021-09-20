@@ -9,7 +9,6 @@ export const SectionTop:React.FC = () =>{
           <span>seja bem vindo</span>
           <span>veja aqui</span>
           <span>as ultimas noticias do mundo da tecnologia</span>
-
         </h1>
       </div>
     </SectionTopStyled>

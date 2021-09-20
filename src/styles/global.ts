@@ -2,7 +2,13 @@ import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap');
-  *{
+:root {
+    --primary-color: #fd951f;
+    --bg-color: #130f0d;
+    --text-color: #f0f0f5;
+    --light-color: rgba(255, 255, 255, 0.04);
+}  
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
