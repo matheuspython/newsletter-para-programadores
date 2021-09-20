@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Noticia } from '../Noticia'
 import { MainStyled } from './style'
 
 export const Main:React.FC = ()=>{
-  const [noticias, setNoticias] = useState([])
+  // const [noticias, setNoticias] = useState([])
 
 
   

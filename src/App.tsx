@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import GlobalStyle from './styles/global'
 import { ThemeProvider } from 'styled-components';
 
@@ -6,7 +6,6 @@ import dark from './styles/themes/dark';
 import light from './styles/themes/light';
 import { Header } from './components/Header';
 import { SectionTop } from './components/sectionTop';
-import { Main } from './components/Main';
 import { Cadastro } from './components/Cadastro';
 
 function App(){

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import media from "styled-media-query";
 
 export const CadastroStyled = styled.section`
   padding: 0 0 80px 0;
