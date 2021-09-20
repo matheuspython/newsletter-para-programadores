@@ -7,7 +7,7 @@ export const Cadastro:React.FC = ()=> {
       <div className="container">
       <form action="">
     <h2>
-      Entrar na lista
+      Cadastre-se aqui
     </h2>
 
     <div className="input">

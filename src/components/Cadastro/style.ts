@@ -54,6 +54,11 @@ export const CadastroStyled = styled.section`
     button {
     margin-top: 16px;
     background-color: var(--primary-color);
+    transition: all.4s;
+    cursor:pointer;
+    }
+    button:hover{
+      background-color: #E1BC29;
     }
   
     input ~ label {
