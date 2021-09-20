@@ -32,9 +32,12 @@ h1 {
   font-family: 'Roboto', sans-serif;
   ${media.between("medium", "large")`
   font-size: 30px;
+
   `}
   ${media.lessThan("medium")`
-    font-size:20px;
+    font-size:25px;
+    letter-spacing: 1rem;
+  
   `}
 }
 
