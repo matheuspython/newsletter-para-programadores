@@ -12,6 +12,7 @@ h2{
   padding: 15px 0;
 }
 .container{
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
