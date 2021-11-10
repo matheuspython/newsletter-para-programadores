@@ -18,8 +18,12 @@ export const NoticiaStyled = styled.div`
     font-size: 20px;
     text-align: center;
     margin: 9px 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   p{
+    text-overflow: ellipsis;
+    overflow: hidden;
     text-align: justify;
     padding: 9px;
   }

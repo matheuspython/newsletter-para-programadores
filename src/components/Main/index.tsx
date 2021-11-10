@@ -17,26 +17,24 @@ const messagesQueue: Message[] = []
 const socket = io('http://localhost:4000/')
 socket.on('new_message', (newMessage: Message) => {
   messagesQueue.push(newMessage);
-  
 })
 
 
 export const Main:React.FC = ()=>{
   const [messages, setMessages] = useState<Message[]>([]);
   useEffect(()=>{
-    setInterval(()=>{
-  
-      if(messagesQueue.length > 0){
-        setMessages(prevState =>[
+    setInterval(() => {
+      if (messagesQueue.length > 0) {
+        setMessages(prevState => [
           messagesQueue[0],
           prevState[0],
-          prevState[1]
+          prevState[1],
         ].filter(Boolean))
+
         messagesQueue.shift()
       }
-      
-    },3000)
-  },[])
+    }, 3000)
+  }, [])
 
   useEffect(()=>{
     api.get<Message[]>('/getMessages').then(response =>{

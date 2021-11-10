@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import { Rotas } from './Rotas'
+import {BrowserRouter as Router} from 'react-router-dom'
 
-ReactDOM.render(
+
+ReactDOM.render(  
   <React.StrictMode>
-    <App />
+    <Router>
+      <Rotas />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root'),
 );
